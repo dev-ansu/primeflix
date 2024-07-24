@@ -1,0 +1,105 @@
+#header-greeting{
+    min-height: 250px;
+    height: 300px;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#header-greeting-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#header-greeting-content .form-group{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 920px;
+}
+#search-movie{
+    padding:12px 12px;
+    height: 36px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    border: 3px solid;
+}
+#search-movie:focus{
+    border:3px solid #006eeb;
+}
+#image-attribution{
+    color:#fff;
+}
+
+#header-greeting-content .form-group h1{
+    color:#fff;
+    font-size: 48px;
+}
+
+#header-filme{
+    display: flex;
+    gap:12px;
+}
+.filme-dados{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+#header-filme .filme-dados{
+    color:#fff;
+    font-size: 24px;
+}
+.filme-dados .year-release{
+    font-size: 32px;
+}
+.filme-dados .release-date{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.actions{
+    display: flex;
+    gap:12px;
+}
+.btn{
+    padding:6px 24px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    height: 32px;
+    width: 150px;
+    border: 2px;
+    font-size: 16px;
+    display: flex;
+    gap:2px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    color:#000;
+}
+
+.btn.btn-trailer{
+    background-color: #fff;
+
+}
+
+.btn.btn-save{
+    background-color: #04a7f9;
+    color:#fff;    
+}
+.btn.btn-save i{
+    font-size: 24px;
+}
+.btn:hover{
+    border:2px solid #fff;
+    background-color: #000;
+    color:#fff;
+}
